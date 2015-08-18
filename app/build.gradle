@@ -6,7 +6,7 @@ android {
     buildToolsVersion "22"
 
     defaultConfig {
-        applicationId "com.aware.plugin.template"
+        applicationId "com.aware.plugin.sarsenbayeva"
         minSdkVersion 10
         targetSdkVersion 22
         versionCode 1

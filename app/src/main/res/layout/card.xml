@@ -10,4 +10,106 @@
         android:text="Counter: "
         android:id="@+id/counter"
         android:textColor="#000"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:id="@+id/light_sensor_text"
+                android:padding="@dimen/abc_text_size_body_1_material"
+                android:text="Light sensor: "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:id="@+id/light_sensor_value"
+                android:padding="@dimen/abc_text_size_body_1_material"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:id="@+id/magnetometer_text"
+                android:padding="@dimen/abc_text_size_body_1_material"
+                android:text="Magnetometer: "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:id="@+id/magnetometer_value"
+                android:padding="@dimen/abc_text_size_body_1_material"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:id="@+id/satellites_text"
+                android:padding="@dimen/abc_text_size_body_1_material"
+                android:text="Satellites: "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:id="@+id/satellites_number"
+                android:padding="@dimen/abc_text_size_body_1_material"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:id="@+id/outside_inside_text"
+                android:padding="@dimen/abc_text_size_body_1_material"
+                android:text="Outside or inside: "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:id="@+id/outside_inside_value"
+                android:padding="@dimen/abc_text_size_body_1_material"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:id="@+id/probability_text"
+                android:padding="@dimen/abc_text_size_body_1_material"
+                android:text="Probability: "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:id="@+id/probability_value"
+                android:padding="@dimen/abc_text_size_body_1_material"/>
+        </TableRow>
+
+    </TableLayout>
+
 </LinearLayout>
